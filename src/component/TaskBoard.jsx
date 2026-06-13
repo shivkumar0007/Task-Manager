@@ -44,7 +44,7 @@ const TaskBoard = () => {
         </div>
 
         
-        <div className="w-[calc(100vw-80vw)] mt-5 bg-red-50 h-[calc(100vh-58vh)] rounded-xl flex flex-col items-center">
+        <div className="w-[calc(100vw-80vw)] mt-5 bg-red-50 rounded-xl flex flex-col items-center">
           <h1 className="flex justify-between w-full px-3 py-2 mb-1 font-semibold">
             <span>In Progress</span>
             <span>18</span>
@@ -57,7 +57,7 @@ const TaskBoard = () => {
         </div>
 
         
-        <div className="w-[calc(100vw-80vw)] mt-5 bg-blue-50 h-[calc(100vh-58vh)] rounded-xl flex flex-col items-center">
+        <div className="w-[calc(100vw-80vw)] mt-5 bg-blue-50  rounded-xl flex flex-col items-center">
           <h1 className="flex justify-between w-full px-3 py-2 mb-1 font-semibold">
             <span>Completed</span>
             <span>27</span>

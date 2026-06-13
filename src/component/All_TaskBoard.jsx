@@ -2,7 +2,8 @@ const Task = () => {
   return (
     <div className="flex items-center text-sm bg-white rounded-lg px-4 py-3 mb-2 shadow-sm hover:shadow-md transition">
       <span className="w-1/5 font-medium text-gray-800">
-        ⏹️ Design Landing Page
+        <input type="checkbox" className="mr-2" />
+        Design Landing Page
       </span>
 
       <span className="w-1/5 text-gray-600">
