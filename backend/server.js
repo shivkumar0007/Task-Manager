@@ -4,8 +4,8 @@ import "dotenv/config"
 
 connectDb();
 
+const PORT=8080
 
-
-app.listen(3000,()=>{
-    console.log("server start on 3000");
+app.listen(PORT,()=>{
+    console.log("server start on ", PORT);
 });
